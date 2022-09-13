@@ -1,0 +1,103 @@
+{
+  "mod_elements": [
+    {
+      "name": "CrappyDisk",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crappy_disk"
+    },
+    {
+      "name": "CrappyDiskTrade",
+      "type": "villagertrade",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crappy_disk_trade"
+    },
+    {
+      "name": "BadguyAutomessaging",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badguy_automessaging",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BadguyAutomessagingStartup",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badguy_automessaging_startup"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "playertarget",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "shity_disk.sound",
+      "files": [
+        "mario_tries_reeses_puffs_mario_land_theme_x_reeses_puffs_rap__beenux"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.modplkb.crappy_disk.desc": "mario+reese",
+      "subtitles.shity_disk.sound": "mario \u0026 reeses puffs",
+      "item.modplkb.crappy_disk": "shitty cd"
+    },
+    "es_es": {
+      "item.modplkb.crappy_disk.desc": "nunca lo sabras :)",
+      "subtitles.shity_disk.sound": "mario \u0026 reeses puffs",
+      "item.modplkb.crappy_disk": "cd estupido"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "modplkb",
+    "modName": "mod pelokabriano",
+    "version": "1.0.0",
+    "author": "PeloDeKabra, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "modplkb",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

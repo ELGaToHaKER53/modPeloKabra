@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.ENDER_EYE"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Items.END_CRYSTAL"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:CrappyDisk"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 60,
+            "priceMultiplier": 0.01
+          }
+        ]
+      }
+    ]
+  }
+}

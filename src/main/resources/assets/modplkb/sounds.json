@@ -1,0 +1,11 @@
+{
+  "shity_disk.sound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "modplkb:mario_tries_reeses_puffs_mario_land_theme_x_reeses_puffs_rap__beenux",
+        "stream": false
+      }
+    ]
+  }
+}

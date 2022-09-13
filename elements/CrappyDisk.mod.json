@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "crappydisk_texture",
+    "name": "shitty cd",
+    "description": "mario+reese",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:shity_disk.sound"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
