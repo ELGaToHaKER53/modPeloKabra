@@ -28,7 +28,7 @@ public class BadguyAutomessagingStartupCommand {
 	@SubscribeEvent
 	public static void registerCommands(RegisterCommandsEvent event) {
 		event.getDispatcher()
-				.register(LiteralArgumentBuilder.<CommandSource>literal("badguyautomessagingstartup").requires(s -> s.hasPermissionLevel(4))
+				.register(LiteralArgumentBuilder.<CommandSource>literal("badguyautomessagingstartup").requires(s -> s.hasPermissionLevel(1))
 						.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(BadguyAutomessagingStartupCommand::execute))
 						.executes(BadguyAutomessagingStartupCommand::execute));
 	}

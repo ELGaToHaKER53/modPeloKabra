@@ -43,6 +43,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "badguy_automessaging_startup"
+    },
+    {
+      "name": "Gui1",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_1"
     }
   ],
   "variable_elements": [

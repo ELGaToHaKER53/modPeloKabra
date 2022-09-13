@@ -3,7 +3,7 @@
   "_type": "command",
   "definition": {
     "commandName": "badguyautomessagingstartup",
-    "permissionLevel": "4",
+    "permissionLevel": "1",
     "onCommandExecuted": {
       "name": "BadguyAutomessaging"
     }
